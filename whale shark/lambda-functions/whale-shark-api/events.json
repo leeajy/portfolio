@@ -1,0 +1,21 @@
+{
+  "CreateGlobalAppCmd-word-count": {
+    "crud_operation": "post",
+    "url": "globalappcmds",
+    "json": {
+      "name": "wc",
+      "type": 1,
+      "description": "Return user's word count"
+    }
+  },
+  "DeleteGlobalAppCmd": {
+    "crud_operation": "delete",
+    "url": "globalappcmd",
+    "command_id": "1020092039347572807"
+  },
+  "GetGlobalAppCmd": {
+    "crud_operation": "get",
+    "url": "globalappcmds",
+    "command_id": "1012854574320734358"
+  }
+}

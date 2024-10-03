@@ -1,0 +1,4 @@
+hikari
+boto3
+awswrangler
+pandas

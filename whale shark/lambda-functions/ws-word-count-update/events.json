@@ -1,0 +1,11 @@
+{
+  "TestS3Event": {
+    "Records": [
+      {
+        "s3": {
+          "object": { "key": "events-v2/2022-09-15"}
+        }
+      }
+    ]
+  }
+}
