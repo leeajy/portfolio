@@ -16,7 +16,7 @@ Whale Shark is a discord bot that can show users their most commonly used words 
 
 
 <p align="center">
-  <img src="./images/ws-word-count.png" alt="ws-word-count" width="100%">
+  <img src="./images/ws-word-count.png" alt="ws-word-count" width="50%">
 </p>
 
 
@@ -24,12 +24,12 @@ The bot itself was hosted on an EC2 instance, where it tracks user messages and 
 
 
 <p align="center">
-  <img src="/images/ws-opt-in.png" alt="ws-opt-in" width="100%">
+  <img src="/images/ws-opt-in.png" alt="ws-opt-in" width="50%">
 </p>
 
 
 <p align="center">
-  <img src="/images/ws-opt-out.png" alt="ws-opt-out" width="100%">
+  <img src="/images/ws-opt-out.png" alt="ws-opt-out" width="50%">
 </p>
 
 Whale Shark's data is saved in S3 and the word count calculations are done through Lambda. All the AWS infrastructure is Terraformed, with an Atlantis application that allows Terraform applies to occur in the github repository. 
